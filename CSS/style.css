@@ -186,9 +186,8 @@ img{
     justify-content: space-between;
     align-items: center;
 }
-.rating span{
-    color: var(--carribean-green);
-}
+
+
 .product-name{
     color: black;
     display: block;
@@ -202,10 +201,10 @@ img{
     padding-right: 0.6rem;
     display: inline-block;
 }
-.product-price:first-of-type{
+/* .product-price:first-of-type{
     text-decoration: line-through;
     color: var(--carribean-green);
-}
+} */
 .product-img img{
     transition: transform 0.6s ease;
 }
