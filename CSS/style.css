@@ -78,8 +78,8 @@ body {
   :root{
     --white-light: rgba(255, 255, 255, 0.5);
     --alice-blue: #f8f9fa;
-    --carribean-green: #40c9a2;
-    --gray: #ededed;
+    /* --carribean-green: #40c9a2;
+    --gray: #ededed; */
 }
 *{
     padding: 0;
@@ -181,13 +181,13 @@ img{
     color: white;
 }
 .btn-cart:hover{
-    background: var(--carribean-green);
+    /* background: var(--carribean-green); */
 }
 .btn-buy{
     background: white;
 }
 .btn-buy:hover{
-    background: var(--carribean-green);
+    /* background: var(--carribean-green); */
     color: #fff;
 }
 .product-info{
@@ -225,13 +225,13 @@ img{
     transform: scale(1.1);
 }
 .product:hover .product-img{
-    background: var(--carribean-green);
+    /* background: var(--carribean-green); */
 }
 .product:hover .product-btns{
     opacity: 1;
 }
 .off-info .sm-title{
-    background: var(--carribean-green);
+    /* background: var(--carribean-green); */
     color: white;
     display: inline-block;
     padding: 0.5rem;
@@ -296,7 +296,7 @@ img{
     font-family: inherit;
 }
 .btn-dark:hover{
-    background: var(--carribean-green);
+    /* background: var(--carribean-green); */
 }
 
 
