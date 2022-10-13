@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<link rel="stylesheet" href="CSS/style.css">
+    <title>Homepage</title>
+
+    <!-- link CSS and JS files -->
+
+ <link rel="stylesheet" href="CSS/style.css"> 
 <script type="text/javascript" src="index.js"></script>
+
 </head>
+
+
 <body>
     <div class = "logo"><a href="index.html"><img src="Images/logo.png"></a>
     </div>
+
+    <!-- Adding the navigation bar -->
     <div class="navbar">
         
         <a href="index.html">Home</a>
@@ -68,6 +76,8 @@
             <a href="Pages/Other.html">Macbook</a>
           </div>
         </div> 
+
+        <!-- Adding the shopping cart icon with some inline CSS -->
         
         <a href="Pages/ShoppingCart.html"><div class="icon-cart" style="clear: left; float: right">
           <div class="cart-line-1" style="background-color: #ffffff"></div>
@@ -76,11 +86,13 @@
           <div class="cart-wheel" style="background-color: #ffffff"></div>
         </div></a>
 
+        <!-- Adding the login button with some inline jS -->
+
         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="loginbutton">Login</button>
 
       </div>
 
-      <!-- Intro -->
+      <!-- Intro section -->
       <header class="header">
        
           
@@ -93,10 +105,12 @@
                   on This <br />
                   FESTIVE PERIOD
                 </h2>
-                <h3>From 10th October to 31st Jan</h3>
+                <h3>From 10th October to 31st Dec</h3>
                
               </div>
             </header>
+
+            <!-- Adding the deals to the home page -->
 
             <div class = "product-items">
 
@@ -164,17 +178,18 @@
               
           </div>
 
-         
+     <!-- Adding the Login form to display as a pop up -->
 
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="/action_page.php" method="post">
   
-
+    <!-- Username  -->
     <div class="modalcontainer">
       <label for="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
 
+       <!-- Password  -->
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
         
@@ -191,7 +206,7 @@
   </form>
 </div>
 
-<!-- javascript code -->
+<!-- javascript code between script tags-->
 
 <script>
 
@@ -203,6 +218,26 @@
       }
   }
   </script>
+
+   <!-----footer-------------------->
+   <section id="footer">
+            
+    <div class="foot">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">CONTACT US</a></li>
+
+        </ul>
+
+        <div class="social-links">
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-behance"></i></a>
+            <a href=""><i class="fab fa-dribbble"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </div>
+    </div>
+</section>
       
       
 
