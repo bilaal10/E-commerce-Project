@@ -623,3 +623,42 @@ img{
         }
       }
     
+
+      /*footer*/
+    #footer {
+      
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+        font-size: 16px;
+        position: relative;
+        min-height: 50vh;
+        padding: 50px 100px;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+     }
+    
+     
+     #footer ul li{
+        color: white;
+        list-style:none;
+        margin: 30px 40px;
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #footer ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+    }
+    
+    #footer ul li a:hover{
+        color: #1f5717;
+    } 
+    
+    
+    
