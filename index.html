@@ -70,11 +70,13 @@
         </div> 
         
         <a href="Pages/ShoppingCart.html"><div class="icon-cart" style="clear: left; float: right">
-          <div class="cart-line-1" style="background-color: #2CC3B5"></div>
-          <div class="cart-line-2" style="background-color: #2CC3B5"></div>
-          <div class="cart-line-3" style="background-color: #2CC3B5"></div>
-          <div class="cart-wheel" style="background-color: #2CC3B5"></div>
+          <div class="cart-line-1" style="background-color: #ffffff"></div>
+          <div class="cart-line-2" style="background-color: #ffffff"></div>
+          <div class="cart-line-3" style="background-color: #ffffff"></div>
+          <div class="cart-wheel" style="background-color: #ffffff"></div>
         </div></a>
+
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="loginbutton">Login</button>
 
       </div>
 
@@ -161,6 +163,46 @@
               </div>
               
           </div>
+
+         
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+  
+
+    <div class="modalcontainer">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="modalcontainer" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!-- javascript code -->
+
+<script>
+
+  var modal = document.getElementById('id01');
+  
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
       
       
 
